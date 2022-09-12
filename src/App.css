@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  background-color: rgb(234, 144, 9);
+  height:1000px;
+  margin:0 auto;
 }
 
-.App table, thead, tbody, tr, td{
+
+.App thead{
+  font-size: 150%;
+  width: 100%;
+  height: 70px;
+}
+
+.tbody, td{
+  width: 5%;
+  height: 20px;
   border: 1px solid black;
 }
